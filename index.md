@@ -47,6 +47,31 @@ If you choose to turn on Bank SMS capture, Centsei can read incoming text messag
 
 I do not collect or share personal information, device identifiers, location, contacts, advertising IDs, usage analytics or crash reports. No third-party analytics, advertising or tracking services are included in the app.
 
+## Data collection and safety
+
+This section summarises the app's data practices in the format used by Google Play's Data safety form.
+
+| Question | Answer |
+| --- | --- |
+| Does the app collect user data? | **No.** Nothing is sent to me or to any third party. |
+| Does the app share user data with third parties? | **No.** |
+| Is data sent over the internet? | **No.** The app works offline and makes no network requests with your data. |
+| Is data encrypted in transit? | Not applicable, because no data is transmitted. |
+| Can you request deletion of your data? | Yes. Use "Reset data" in More › Settings › Data, clear the app's storage, or uninstall. Because I hold no copy, there is nothing for me to delete on request. |
+| Are there ads or advertising IDs? | No. |
+| Are there analytics, crash reporting or tracking SDKs? | No. |
+
+### Safety measures
+
+- **Local-only storage:** data lives in the app's private storage on your device, which other apps cannot normally read.
+- **No accounts or passwords:** there is no login, so there are no credentials to leak.
+- **Least access:** the only sensitive permission is SMS, it is optional, and it is limited to the senders you allow. Messages from other senders are discarded without being stored or logged.
+- **Data you export is yours to protect:** a CSV export is a plain file. Share it only with apps and people you trust, and delete it when you no longer need it.
+- **Device protection:** use a screen lock and keep your device updated. Anyone who can unlock your phone can open the app.
+- **Backups:** I do not back up your data. Export a CSV regularly if you want your own copy.
+
+If I ever become aware of a security problem in the app that could affect your data, I will publish a fix and note it in this repository.
+
 ## Sharing
 
 I do not sell, rent, trade or share your information, because I do not have it.
